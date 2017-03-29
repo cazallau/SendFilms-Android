@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/row_design">
+
+    <ImageView
+        android:id="@+id/row_film___poster"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/row_film___film_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>

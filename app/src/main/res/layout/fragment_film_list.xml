@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cazallau.sendfilms.fragment.FilmListFragment"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/fragment_film_list___send"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        />
+    <ImageButton
+        android:id="@+id/fragment_film_list___button"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_send"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_film_list___film_list"
+        android:layout_width="match_parent"
+        android:layout_below="@id/fragment_film_list___send"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_film_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cazallau.sendfilms.activities.FilmDetailsActivity">
+
+    <TextView
+        android:id="@+id/activity_film_details___filmName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:paddingBottom="15dp"/>
+
+    <ImageView
+        android:id="@+id/activity_film_details___filmPoster"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/activity_film_details___filmName"/>
+
+    <Button
+        android:id="@+id/activity_film_details___film_imdb_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Ver detalles en Imdb.com"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
